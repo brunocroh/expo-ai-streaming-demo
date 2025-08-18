@@ -20,6 +20,8 @@ React Native fetch API lacks:
 
 Use [fetch from Expo](https://docs.expo.dev/versions/latest/sdk/expo/)
 
+> ⚠️ `expo/fetch` was introduced in **Expo 52**. If you’re using an older version, you’ll need to update it or find another way to handle it.
+
 ```tsx
 import { fetch } from "expo/fetch";
 ```
