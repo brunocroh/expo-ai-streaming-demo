@@ -2,6 +2,10 @@
 
 ## Example of AI streaming responses in Expo + React Native
 
+
+https://github.com/user-attachments/assets/839c3846-0875-4542-9619-4709f0ebc594
+
+
 ## Issue
 
 React Native fetch API lacks:
