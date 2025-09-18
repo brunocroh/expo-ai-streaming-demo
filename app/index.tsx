@@ -12,6 +12,7 @@ import { HelloWave } from "@/components/HelloWave";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { useState } from "react";
+import { Redirect } from "expo-router";
 
 export default function HomeScreen() {
   const [message, setMessage] = useState("");
@@ -70,6 +71,8 @@ export default function HomeScreen() {
       reader.cancel();
     }
   };
+
+  return <Redirect href="/markdown" />;
   return (
     <SafeAreaView style={styles.container}>
       <ThemedView style={styles.titleContainer}>
